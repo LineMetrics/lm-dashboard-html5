@@ -1,0 +1,98 @@
+.main {
+    margin: 2rem;
+    border: 5px solid darkslategrey;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-bottom: .75rem;
+}
+
+.header-divider {
+    border-bottom: 4px solid black;
+    border-radius: 10px;
+
+    margin-bottom: .75rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.logo {
+    margin: 1rem;
+}
+
+.logo.linemetrics {
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+
+.logo.partner {
+    flex-grow: 2;
+    flex-basis: 60%;
+}
+
+.logo.partner > img {
+    display: block;
+    margin-left: auto;
+}
+
+.header > div > img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#current-similey {
+    font-size: 8rem;
+}
+
+.co2meter-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#co2meter {
+    width: 100%;
+    height: 2rem;
+}
+
+.co2meter-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content > div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.smilies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.value-text {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.guidance {
+    font-size: 2.5rem;
+}
+
+.text-description {
+    text-align: center;
+    font-size: 3.5rem;
+}
