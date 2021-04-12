@@ -2,7 +2,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-image: linear-gradient(to bottom, rgba(245,245,245,0), rgba(225,225, 225,1));
 }
 
 .header {
@@ -31,7 +31,7 @@
 
 .sensor-batch {
     border-radius: 10px;
-    background-color: lightgray;
+    background-image: linear-gradient(to top, rgba(225,225, 225,0.9), rgb(221, 221, 221));
     padding-left: 8px;
     padding-right: 8px;
 }
