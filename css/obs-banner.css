@@ -1,0 +1,37 @@
+.main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.header {
+    width: 30%;
+    flex: 1;
+}
+
+.sensors {
+    flex: 4;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.horizonal-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header > img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.sensor-batch {
+    border-radius: 10px;
+    background-color: lightgray;
+    padding-left: 8px;
+    padding-right: 8px;
+}
