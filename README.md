@@ -3,6 +3,11 @@
 These are just templates. You can copy them and use them as you want.
 
 ## Template: Basic co2 dashboard
+### Prerequisites to use the dashboard
+- Modern Browser with HTML5
+- Enabled Javascript
+- Internet connection
+
 ### Screenshots
 
 Text in screenshots is in german.
