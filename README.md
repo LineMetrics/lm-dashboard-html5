@@ -19,6 +19,7 @@ Value in bad range:
 ![img.png](./img/dashboard-html5-co2-bad.png)
 
 ### Configuration
+#### Via URL
 ```
 {{baseUrl}}/?ai={clientId}&as={clientSecret}&mpa={measurement_point_alias}&oi={object_id}
 ```
@@ -33,3 +34,8 @@ Example with hosted dashboard on Github Pages:
 ```
 https://linemetrics.github.io/lm-dashboard-html5?ai={clientId}&as={clientSecret}&mpa={measurement_point_alias}&oi={object_id}
 ```
+
+#### Fix in Code
+Second possibility is to provide no URL parameter and instead set the variables in the main.js file 
+in the function _parseUrlSearchParams()_.
+![img.png](example_incode_dashboard_configuration.png)
